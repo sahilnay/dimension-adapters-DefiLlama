@@ -14,7 +14,7 @@ const EcoChains: Record<string, string> = {
   [CHAIN.SONIC]: '146',
 };
 
-const fetch: any = async (timestamp: number, _: any, options: FetchOptions) => {
+const fetch: any = async (_: number, __: any, options: FetchOptions) => {
   const balances = options.createBalances();
 
 
