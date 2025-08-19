@@ -12,6 +12,7 @@ const EcoChains: Record<string, string> = {
   [CHAIN.INK]: '57073',
   [CHAIN.CELO]: '42220',
   [CHAIN.SONIC]: '146',
+  [CHAIN.WC]: '480'
 };
 
 const fetch: any = async (_: number, __: any, options: FetchOptions) => {
