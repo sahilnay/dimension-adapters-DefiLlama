@@ -15,7 +15,7 @@ const EcoChains: Record<string, string> = {
   [CHAIN.WC]: '480'
 };
 
-const fetch: any = async (_: number, __: any, options: FetchOptions) => {
+const fetch: any = async (options: FetchOptions) => {
   const balances = options.createBalances();
 
 
